@@ -1,0 +1,6 @@
+@import "bootstrap-sass/_bootstrap";
+
+body{
+   color:red;
+   @include border-top-radius(10px);
+}
