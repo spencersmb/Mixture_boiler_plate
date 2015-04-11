@@ -15,17 +15,17 @@
     "templateDefaultLayout": "layout",
     "templateDefaultPage": "index",
     "type": "mixture",
-    "useCompass": false,
     "simpleModePartnerServer": null,
     "modelSource": null,
     "domain": null,
     "convertHtml": {
         "relativePaths": false
     },
-    "customRuby": true,
+    "customRuby": false,
    
     "customRubyPath": "/Ruby21-x/lib/ruby/gems/2.1.0",
     "autoPrefixer": null,
+    "useCompass": true,
     "sass": {
       "outputStyle": "nested",
       "sourceMap": false,

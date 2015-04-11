@@ -16,15 +16,21 @@ Version: 1.0.0
 @import "core/index";
 
 // ==========================================================================
+// Bower Components
+// Bourbon
+// ==========================================================================
+
+
+// ==========================================================================
 // Vendor - framework libraries
-// Boostrap, bourbon
+// Boostrap
 // ==========================================================================
 @import "vendor/index";
 
 
 body{
    font:em(21px);
-   color:red;
+   color:green;
    @include border-top-radius(10px);
    @include background(linear-gradient(red, green) left repeat);
 }
