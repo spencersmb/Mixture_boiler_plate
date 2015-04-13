@@ -1,26 +1,13 @@
 /*********************************************************
 
-Project Name: Iconologic Website
+Project Name: Website Bootstrap boilerplate
 Project Description:
 File Name: Master Sass file
 Author: Spencer Bigum, Casey Jardin
-Author URL: http://www.iconologic.com/
+Author URL:
 Version: 1.0.0
 
 *********************************************************/
-
-// ==========================================================================
-// Utilities
-// Config, Helpers, Mixins
-// ==========================================================================
-@import "core/index";
-
-// ==========================================================================
-// Bower Components
-// Bourbon
-// ==========================================================================
-
-
 // ==========================================================================
 // Vendor - framework libraries
 // Boostrap
@@ -28,9 +15,19 @@ Version: 1.0.0
 @import "vendor/index";
 
 
+// ==========================================================================
+// Utilities
+// Config, Helpers, Mixins
+// ==========================================================================
+@import "core/index";
+
+
+
+
+
 body{
    font:em(21px);
    color:green;
    @include border-top-radius(10px);
-   @include background(linear-gradient(red, green) left repeat);
+//   @include background(linear-gradient(red, green) left repeat);
 }
