@@ -10,11 +10,13 @@
     "**/.*",
     "node_modules",
     "bower_components",
-    "assets/scss",
-    "test",
-    "tests"
+    "assets/scss"
   ],
   "dependencies": {
+
+  },
+  "devDependencies": {
+    "classie": "~1.0.1",
     "bourbon": "~4.2.2",
     "underscore": "~1.8.3"
   }
